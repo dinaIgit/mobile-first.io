@@ -1,0 +1,121 @@
+
+.news {
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 auto;
+    background-color: $bg-color;
+
+    &__items {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__item {
+        width: 268px;
+        margin: 0 auto;
+
+        &:hover {
+            .news__item-link {
+                display: none;
+            }
+        }
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+
+    &__item-img {
+        width: 100%;
+        margin-bottom: 21px;
+        position: relative;
+
+        img {
+            min-width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border-radius: 4px 4px 0 0;
+        }
+    }
+
+    &__item-inner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 102%;
+        height: 100%;
+        _background: $accent;
+        border: 10px solid $accent;
+        border-radius: 4px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 25;
+        opacity: 0;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        &:hover {
+            opacity: 1;
+            transition: all .5s ease;
+        }
+    }
+
+    &__item-linkText {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 5;
+        color: #fff;
+        text-align: left;
+        @extend %robotoCondensed-700;
+        font-size: 18px;
+        background-color: rgba($accent, 1);
+        width: 110%;
+        height: 40px;
+        padding: 7px 20px 10px;
+        margin-bottom: 20px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        z-index: 25;
+    }
+
+    &__item-mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: rgba(107, 176, 113, 0.3);
+        z-index: 23;
+    }
+
+    &__item-info {
+        img {
+            position: relative;
+            cursor: pointer;
+            z-index: 27;
+        }
+    }
+
+    &__item-link {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        color: $text-color;
+        text-align: left;
+        @extend %robotoCondensed-700;
+        padding: 10px 20px;
+        margin-top: -5px;
+        background-color: #fff;
+        border-radius: 0 0 4px 4px;
+        line-height: 21px;
+        letter-spacing: 2px;
+    }
+}

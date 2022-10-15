@@ -1,0 +1,105 @@
+
+.services {
+    padding: 25px 0 40px;
+    text-align: center;
+
+    &__title {
+        @extend %roboto-500;
+        margin-bottom: 47px;
+        color: $accent;
+    }
+
+    &__descr {
+        line-height: 24px;
+        font-size: 20px;
+        color: $text-color;
+        margin-bottom: 21px;
+    }
+
+    &__text {
+        color: #797979;
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 40px;
+    }
+
+    &__item {
+        min-height: 310px;
+        border: 1px solid $bg-color;
+        border-bottom: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 18px;
+
+        &:last-child {
+            border-bottom: 1px solid $bg-color;
+        }
+
+        &:hover {
+
+            .services__item-text,
+            .services__item-link {
+                opacity: 1;
+                height: auto;
+                overflow: visible;
+                cursor: pointer;
+            }
+
+            .services__item-img {
+                margin-bottom: 14px;
+            }
+
+            .services__item-title {
+                margin-bottom: 30px;
+            }
+
+            .services__item-inner {
+                border: 4px solid $accent;
+                margin: 18px 0;
+                padding: 25px 20px 5px;
+                min-height: 277px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__item-inner {
+        transition: all .7s;
+    }
+
+    &__item-img {
+        margin-bottom: 30px;
+    }
+
+    &__item-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2px;
+        color: $text-color;
+        font-weight: bold;
+        text-transform: uppercase;
+        @extend %robotoCondensed-700;
+    }
+
+    &__item-text,
+    &__item-link {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: all .5s;
+    }
+
+    &__item-text {
+        margin-bottom: 17px;
+        @extend %dosis-500;
+    }
+
+    &__item-link {
+        letter-spacing: 2px;
+        color: $accent;
+        @extend %robotoCondensed-700;
+        text-transform: uppercase;
+    }
+}

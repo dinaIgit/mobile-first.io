@@ -1,0 +1,41 @@
+
+$accent: #2B4074;
+$text-color:#4a4a4a;
+$bg-color:#F9F6E5;
+$default-color:#9B9B9B;
+$table-green: #7EBF84;
+
+%dosis-300{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+%dosis-400{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+%dosis-500{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+%robotoCondensed-400{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+%robotoCondensed-700{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+%roboto-500{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+%roboto-400{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+%roboto{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,23 @@
+
+.head{
+background-image: url(../img/bg.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+min-height: 193px;
+}
+.top-slider{
+    background: rgba(33, 33, 33, 0.5);
+    &__item{
+        color: #fff;
+        text-align: center;
+    }
+    &__title{
+        font-family: 'Roboto Condensed', sans-serif;
+        line-height: 28px;
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 36px 0 28px;
+    }
+}

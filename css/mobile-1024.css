@@ -1,0 +1,113 @@
+@media (min-width: 1024px) {
+  .top-slider__item {
+    min-height: 618px;
+  }
+  .top-slider__title {
+    padding-top: 101px;
+    font-size: 84px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    max-width: 750px;
+  }
+  .top-slider .slick-dots {
+    bottom: 80px;
+  }
+  .call__box {
+    max-width: 695px;
+  }
+  .services {
+    padding: 52px 0 0;
+  }
+  .services__title {
+    margin-bottom: 60px;
+  }
+  .services__descr {
+    padding-bottom: 46px;
+    margin-bottom: 40px;
+  }
+  .services__text {
+    margin-bottom: 32px;
+    max-width: 608px;
+  }
+  .services__item {
+    width: 25%;
+    padding: 0 17px;
+    min-height: 277px;
+  }
+  .services__item:nth-child(2), .services__item:nth-child(6) {
+    border-right: none;
+  }
+  .services__item:hover {
+    padding: 0 17px;
+  }
+  .services__item:hover .services__item-inner {
+    margin: 10px 0;
+    padding: 21px 9px 5px;
+    min-height: 255px;
+  }
+  .project__items {
+    justify-content: center;
+  }
+  .project__item-img {
+    margin: 0 12px;
+  }
+  .project__item-inner {
+    min-height: 256px;
+  }
+  .team {
+    padding: 80px 0;
+  }
+  .team__images {
+    width: 395px;
+    margin-right: 60px;
+  }
+  .team__title {
+    margin-top: 10px;
+    margin-bottom: 19px;
+  }
+  .team__text {
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .team__btn {
+    font-size: 18px;
+  }
+  .news__title {
+    margin: 50px 0;
+    font-size: 48px;
+  }
+  .news__items {
+    width: 100%;
+    margin: 90px auto;
+    -moz-column-count: 3;
+         column-count: 3;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .news__item {
+    margin-right: 60px;
+  }
+  .article .bottom-slider {
+    margin: 70px auto;
+  }
+  .article .bottom-slider__text {
+    margin: 40px auto;
+    line-height: 37.5px;
+    letter-spacing: 2px;
+  }
+  .article .bottom-slider__text span {
+    margin: 70px 0;
+  }
+  .footer__text {
+    margin: 80px auto 60px;
+  }
+  .footer__socialIcon-table table td {
+    height: 63px;
+  }
+  .footer__contactsInfo-item {
+    width: 25%;
+  }
+  .footer__contactsInfo-item:nth-child(2), .footer__contactsInfo-item:nth-child(4) {
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=mobile-1024.css.map */
